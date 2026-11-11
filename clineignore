@@ -1,0 +1,24 @@
+# Виртуальное окружение и кэш (самое тяжёлое)
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+htmlcov/
+
+# Git
+.git/
+
+# Секреты
+.env
+.env.*
+
+# Сборки и логи
+build/
+dist/
+*.egg-info/
+*.log
+
+# Резервные копии DevSetup
+*.setup
